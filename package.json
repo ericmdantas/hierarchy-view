@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "aliv",
     "build-css": "node-sass --include-path scss scss/ --output css/",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/zikosichi/hierarchi-view#readme",
   "devDependencies": {
+    "aliv": "^1.11.4",
     "node-sass": "^3.13.0",
     "nodemon": "^1.11.0"
   }
